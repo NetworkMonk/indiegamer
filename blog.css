@@ -3,7 +3,6 @@
  */
 
  body {
-    font-family: Georgia, "Times New Roman", Times, serif;
     color: #555;
   }
   
@@ -14,7 +13,6 @@
   h5, .h5,
   h6, .h6 {
     margin-top: 0;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     color: #333;
   }
@@ -72,6 +70,16 @@
     border-bottom: 5px solid;
     border-left: 5px solid transparent;
   }
+
+  .blog-nav li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;	
+}
+.blog-nav li a {
+    color: #fff;
+}
   
   
   /*
