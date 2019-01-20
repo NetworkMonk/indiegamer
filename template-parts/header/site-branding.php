@@ -27,7 +27,7 @@
                     array(
                         'theme_location' => 'menu-1',
                         'menu_class'     => 'main-menu',
-                        'items_wrap'     => '<ul id="%1$s" class="navbar-nav%2$s">%3$s</ul>',
+                        'items_wrap'     => '<li id="%1$s" class="navbar-nav%2$s">%3$s</li>',
                     )
                 );
                 ?>
